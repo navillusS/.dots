@@ -1,0 +1,29 @@
+
+" basics:
+	set nocompatible
+	set relativenumber
+	syntax on
+	set encoding=utf-8
+	set number
+	set smartcase
+	set autoindent cindent smartindent showmatch
+	set ts=4
+
+" vim in shell
+"	set editing-mode vi
+
+"split navigations
+	nnoremap <C-J> <C-W><C-J>
+	nnoremap <C-K> <C-W><C-K>
+	nnoremap <C-L> <C-W><C-L>
+	nnoremap <C-H> <C-W><C-H>
+
+" replace all is aliased to S
+	nnoremap S :%s//g<Left><Left>
+	
+" Copy selected text to system clipboard, must install gvim or look at lukesmith video
+	vnoremap <C-c> "*Y :let @+=@*<CR>
+	map <C-v> "+P
+
+
+

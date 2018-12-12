@@ -1,0 +1,45 @@
+#keybindings.json
+[
+        {
+       "key": "ctrl+shift+l",
+       "command": "workbench.action.navigateRight",
+       "when": "vim.active",
+    },
+    {
+       "key": "ctrl+shift+j",
+       "command": "workbench.action.navigateDown",
+       "when": "vim.active",
+        
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "workbench.action.navigateUp",
+        "when": "vim.active",
+    },
+    {
+        "key": "ctrl+shift+h",
+        "command": "workbench.action.navigateLeft",
+        "when": "vim.active",
+ 
+    }
+]
+#Wokspace Settings
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.maxColumn": 100,
+    "editor.minimap.showSlider": "always",
+    "vim.foldfix": true,
+    "vim.easymotion": true,
+    "editor.minimap.enabled": false,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [" "],
+            "after": ["leader", "leader", "leader", "b", "d", "w"]
+        }
+    ],
+    "vim.useCtrlKeys": false,
+    "window.zoomLevel": 0,
+    "workbench.sideBar.location": "left"
+}
+
