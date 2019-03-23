@@ -1,0 +1,35 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+       "key": "ctrl+shift+l",
+       "command": "workbench.action.navigateRight",
+       "when": "vim.active",
+    },
+    {
+       "key": "ctrl+shift+j",
+       "command": "workbench.action.navigateDown",
+       "when": "vim.active",
+        
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "workbench.action.navigateUp",
+        "when": "vim.active",
+    },
+    {
+        "key": "ctrl+shift+h",
+        "command": "workbench.action.navigateLeft",
+        "when": "vim.active",
+    },
+    {
+        "key": ".",
+        "command": "extension.vim_ctrl+r",
+        "when": "editorTextFocus && vim.active && vim.use<C-r> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-extension.vim_ctrl+r",
+        "when": "editorTextFocus && vim.active && vim.use<C-r> && !inDebugRepl"
+    },
+]
+

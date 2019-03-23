@@ -1,0 +1,36 @@
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.maxColumn": 100,
+    "editor.minimap.showSlider": "always",
+    "vim.foldfix": true,
+    "vim.easymotion": true,
+    "vim.surround": true,
+    "editor.minimap.enabled": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [" "],
+            "after": ["leader", "leader", "leader", "b", "d", "w"]
+        },
+        /*{
+            "before": ["+"],
+            "after": ["f", ">"],
+            "when": "html.activate"
+        },
+        {
+            "before": ["-"],
+            "after": ["F", "<"],
+            "when": "html.activate"
+        }*/
+    ],
+    "vim.useCtrlKeys": false,
+    "window.zoomLevel": 0,
+    "workbench.sideBar.location": "left",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorCustomizations": {},
+    "materialTheme.accent": "Remove accents",
+    "terminal.integrated.rendererType": "dom",
+    "editor.cursorBlinking": "expand",
+    "window.menuBarVisibility": "default",
+
+}
